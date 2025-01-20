@@ -1,0 +1,63 @@
+
+/*
+ * Imported Fonts
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*
+ * Base
+ */
+
+html {
+    height: 100%;
+}
+body {
+    padding: unset;
+    margin: unset;
+    height: 100%;
+    background: rgb(58 9 67 / 69%);
+    background: -moz-linear-gradient(0deg, rgb(58 9 67 / 69%) 0%, rgb(57 37 61) 47%, rgb(28 28 28) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(58 9 67 / 69%) 0%, rgb(57 37 61) 47%, rgb(28 28 28) 100%);
+    background: linear-gradient(0deg, rgb(58 9 67 / 69%) 0%, rgb(57 37 61) 47%, rgb(28 28 28) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c3d3e",endColorstr="#242424",GradientType=1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: var(--font);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+
+/*
+ * Navigation
+ */
+
+nav {
+    padding: 12px;
+}
+nav h1,
+nav h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+nav h1 {
+    letter-spacing: 2px;
+    font-size: 12rem;
+    margin: unset;
+}
+nav h2 {
+    margin: unset;
+    margin-top: -45px;
+    letter-spacing: 4px;
+    font-size: 2rem;
+}
+nav h1 b {
+    color: #fd00d0;
+}
