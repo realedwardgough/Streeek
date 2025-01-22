@@ -39,6 +39,10 @@ body {
 
 nav {
     padding: 12px;
+    margin-bottom: 2rem;
+}
+nav header {
+    text-align: center;
 }
 nav h1,
 nav h2 {
@@ -49,15 +53,58 @@ nav h2 {
 }
 nav h1 {
     letter-spacing: 2px;
-    font-size: 12rem;
+    font-size: 8rem;
     margin: unset;
 }
 nav h2 {
     margin: unset;
-    margin-top: -45px;
+    margin-top: -38px;
     letter-spacing: 4px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 nav h1 b {
     color: #fd00d0;
+}
+
+
+
+/*
+ * Habits Containers
+ */
+
+.habits-container {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    gap: 1rem;
+    width: 100%;
+    width: -webkit-fill-available;
+    justify-content: center;
+}
+.habit-card {
+    width: 200px;
+    height: 200px;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #fd00d014;
+    backdrop-filter: blur(15px);
+    color: white;
+    cursor: pointer;
+}
+.habit-card-header {
+    display: flex;
+    flex-direction: column;
+}
+button.delete-habit {
+    border: solid 1px white;
+    background-color: unset;
+    border-radius: 12px;
+    padding: 6px 12px;
+    color: white;
 }

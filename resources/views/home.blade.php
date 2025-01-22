@@ -14,12 +14,44 @@
 </head>
 <body>
     
+
+    <!-- Navigation -->
     <nav>
         <header>
             <h1><b>Streeek</b>.</h1>
             <h2>Get your streeek on!</h2>
         </header>
     </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <div class="habits-container">
+            <div class="habit-card">
+                <div class="habit-card-header">
+                    <h3>Exercise</h3>
+                    <button class="delete-habit">Delete</button>
+                </div>
+            </div>
+
+            <div class="habit-card">
+                <div class="habit-card-header">
+                    <h3>Writing</h3>
+                    <button class="delete-habit">Delete</button>
+                </div>
+            </div>
+
+            <div class="habit-card">
+                <div class="habit-card-header">
+                    <h3>Coding</h3>
+                    <button class="delete-habit">Delete</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
 
 </body>
 </html>
